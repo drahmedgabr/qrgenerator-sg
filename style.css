@@ -62,10 +62,32 @@ body {
     margin-top: 30px;
 }
 
+#resultDiv #qrDiv {
+    position: relative;
+    display: none;
+}
+
+#resultDiv #qrDiv i {
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    right: -30px;
+    top: 0;
+}
+
+#resultDiv #qrDiv i:hover {
+    cursor: pointer;
+}
+
 #resultDiv #canvasDiv {
     padding: 20px;
     border-radius: 20px;
     background-color: white;
-    display: none;
     margin-top: 20px;
+}
+
+#resultDiv #qrText {
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
