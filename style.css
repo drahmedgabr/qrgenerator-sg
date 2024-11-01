@@ -91,3 +91,51 @@ body {
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
+
+#mainDiv #dividerDiv {
+    display: none;
+    width: 5px;
+    height: 50vh;
+    margin: 0 100px;
+    background-color: white;
+}
+
+
+@media (min-width: 1200px) {
+    
+    #mainDiv {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90vh;
+    }
+    
+    #inputDiv h1 {
+        font-size: 100px;
+    }
+
+    #inputDiv input {
+        padding: 30px 50px;
+        font-size: 25px;
+        border-radius: 20px;
+    }
+
+    #inputDiv button {
+        padding: 30px 50px;
+        font-size: 25px;
+        border-radius: 20px;
+        margin-top: 30px;
+    }
+
+    #mainDiv #dividerDiv {
+        display: block;
+    }
+
+    #resultDiv #adsDiv {
+        width: 300px;
+        height: 300px;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+}
